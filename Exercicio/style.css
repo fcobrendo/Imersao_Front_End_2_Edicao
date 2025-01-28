@@ -7,38 +7,130 @@
 }
 body,html{
     background-color: black;
-    
+    color: white;
 }
 main{
     display: flex;
 }
-#barra_menu{
+header{
+    display: flex;
+    height: 60px;
+}
+#menu_superior{
+    display: flex;
+    align-items: center;
+}
+header #menu_superior img{
+    width: 80px;
+    height: 25px;
+}
+/*tratamento de ícones*/
+#home{
+    font-size: 35px;
+    font-variation-settings:'wght' 200;
+    color: white;
+    background-color:#1F1F1F;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 5px;
+    position: relative;
+    left: 300px ;
+}
+#pesquisa{
+    border: 0px;
+    border-radius: 20px;
+    background-color:#1F1F1F ;
+    width: 450px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    padding: 2px 2px 0px 10px;
+    margin-left: 305px;
+}
+header #menu_superior a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 170px;
+    margin-right: 40px;
+}
+header #menu_superior button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     background-color: white;
-    min-width: 600px;
+    font-weight: bold;
+    border: 0px;
+    padding: 15px 35px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+body #menu_lateral_esquerda #biblioteca_de_musicas h2{
+    font-size: 16px;
+    display: inline-block;
+    margin-right: auto;
+}
+#menu_lateral_esquerda nav a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    line-height: 30px;
+}
+#lingua{
+    margin: 30px 0px 0px 15px;
+    padding: 2px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+#links_rodape{
+    margin: 15px;
+}
+#lingua a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+#biblioteca_de_musicas{
+    padding: 0px 0px 0px 10px;
+    border-radius: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 70px;
+    background-color: #1F1F1F;
+    margin: 0px;
+}
+#add_musicas{
+    margin-left: auto;
+    margin-right: 15px;
 }
 body main article{
-    background-color: white;
-    display: inline-block;
+    background-color:#1F1F1F ;
+    border-radius: 10px;
     width: 70vw;
     min-width: 400px;
     height: 470px;   
 }
-#biblioteca{
-    background-color: white;
+#menu_lateral_esquerda{
+    border-radius: 10px;
+    background-color: #1F1F1F;
     width: 30vw;
     height: 470px;
     min-width: 300px;   
 }
-section div iframe{
+#menu_lateral_esquerda div iframe{
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
     width: 100%;
-    height: 350px;
-}
-section{
-    display: inline-block;
-}
-footer{
+    height: 200px;
     background-color: white;
+}
+
+footer{
+    background-image: linear-gradient(to right, #9B40A9,#B02C9C,#8E4FB7,#7D65C7,#677EDC);
     height: 70px;
     min-width: 600px;
 }

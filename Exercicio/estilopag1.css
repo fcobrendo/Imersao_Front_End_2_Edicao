@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+html,body{
+    background-color: black;
+    margin: auto;
+    width: 100vw;
+    overflow-x: hidden; 
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color:  #1F1F1F;
+    margin: 30px;
+    border-radius: 10px;
+}
+a{
+    display: relative;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    
+}
