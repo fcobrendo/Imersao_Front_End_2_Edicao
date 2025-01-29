@@ -1,1 +1,18 @@
 @charset "UTF-8";
+@media screen and (max-width:500px) {
+    #home_pesquisa #caixa_de_pesquisa{
+       display: none;
+    }
+    #icone_pesquisa{
+        display: inline-block;
+        background-color:#1F1F1F;
+        border-radius: 50%;
+        padding: 13px;
+        margin-left: 8px;
+        margin-right: 12px;
+    }
+    #inscrever_entrar a{
+        font-size: 14px;
+    }
+
+}

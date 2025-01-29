@@ -5,23 +5,88 @@
     margin: 0px;
     padding: 0px;
 }
+#icone_pesquisa{
+    display: none;
+}
 html,body{
-    background-color: ;
+   
+    background-color:black;
     color:white;
     height: 100vh;
     width: 100vw;
 }
 header,footer{
-    width: 100vw;
+    margin: auto;
+    width: 98vw;
+    background-color: black;
+}
+header{
+    background-color: ;
+    align-content: center;
+    height: 58px;
 }
 main{
+    color: black;
     margin: auto;
     width: 98vw;
     min-width: 500px;
 }
+#menu_superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #logo_spotify{
-    width: 50px;
-    height: 20px;
+    width: 110px;
+    height: 34px;
+    margin: 6px;
+}
+#icone_home{
+    font-size: 39px;
+    background-color:#1F1F1F;
+    font-variation-settings: 'wght' 255;
+    border-radius: 50px;
+    padding: 5px;
+}
+#caixa_de_pesquisa{
+    font-size: 15px;
+    width: 30vw;
+    min-width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 50px ;
+    background-color:#1F1F1F;
+    color: white;
+    margin-left: 9px;
+    background: url(imagens/icons/search.png) no-repeat 10px #1F1F1F;
+}
+#home_pesquisa{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+#caixa_de_pesquisa::placeholder{
+    color: white;
+}
+#inscrever_entrar{
+    display: flex;
+    align-items: center;
+}
+#inscrever_entrar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#inscrever_entrar button{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 27px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 section{
     background-color: #1F1F1F;
