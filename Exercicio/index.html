@@ -8,18 +8,18 @@
     <!-- Link para icones do google -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700">
     <!-- Link para folhas de estilo -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style(teste).css">
     <link rel="stylesheet" href="mediaqueries.css">
      <!-- Link para javascript -->
     <script src="script.js"></script>
 </head>
 <header>
     <nav id="menu_superior">
-       <img src="imagens/icons/logo-spotify.png" alt="logo">
-       <span id="home" class="material-symbols-outlined">home</span>
-       <input placeholder="O que você quer ouvir?" type="text" name="pesquisa" id="pesquisa">
+       <img id="logo_spotify" src="imagens/icons/logo-spotify.png" alt="logo">
+       <span id="icone_home" class="material-symbols-outlined">home</span>
+       <input placeholder="O que você quer ouvir?" type="text" name="pesquisa" id="caixa_de_pesquisa">
        <a href="#">Inscrever-se</a>
-       <button id="entrar">Entrar</button>
+       <button id="botao_entrar">Entrar</button>
     </nav>
 </header>
 <body>
@@ -30,29 +30,25 @@
                 <h2>Sua Biblioteca</h2>
                 <span id="add_musicas" class="material-symbols-outlined">playlist_add</span>
             </div>
-            
             <div id="iframe_biblioteca"><iframe id="iframe" src="pg01.html" frameborder="0"></iframe></div>
-            <nav id="links_rodape">
+            <nav id="links_rodapé_lateral">
                 <a href="#">Legal</a>
                 <a href="#">Segurança e Centro de privacidade</a>
                 <a href="#">Politica de privacidade</a>
                 <a href="#">Cookies</a>
                 <a href="#">Sobre anúncios</a>
                 <a href="#">Acessibilidade</a>
+                <button><span class="material-symbols-outlined">language</span>Português do Brasil</button>
             </nav>
-            <div id="lingua">
-                <span class="material-symbols-outlined">language</span><a href="#">Português do Brasil</a>
-            </div>
         </section>
-        <article id="principal">
-        </article>
+        <section id="conteudo_central">
+            <p>secao 2</p>
+        </section>
     </main>
 </body>
 <footer>
-    <div>
         <h4>Testar o premium de graça</h4>
         <p>Inscreva-se para curtir música de ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito</p>
-    </div>
-    <a href="#">Inscreva-se grátis</a>
+        <a href="#">Inscreva-se grátis</a>
     </footer>
 </html>
