@@ -13,29 +13,34 @@
      <!-- Link para javascript -->
     <script src="script.js"></script>
 </head>
+<!-- Menu Superior-->
 <header>
     <nav id="menu_superior">
        <img id="logo_spotify" src="imagens/icons/logo-spotify.png" alt="logo">
        <div id="home_pesquisa">
-           <span id="icone_home" class="material-symbols-outlined">home</span>
+           <a href="#"><span id="icone_home" class="material-symbols-outlined">home</span></a>
            <input placeholder="O que você quer ouvir?" type="text" name="pesquisa" id="caixa_de_pesquisa">
-           <img id="icone_pesquisa" src="imagens/icons/search.png" alt="icone de pesquisa">
+           <a href="#"><img id="icone_pesquisa" src="imagens/icons/search.png" alt="icone de pesquisa"></a>
        </div>
        <div id="inscrever_entrar">
            <a href="#">Inscrever-se</a>
-           <button id="botao_entrar">Entrar</button>
+           <button id="botao_entrar" >Entrar</button>
        </div>
     </nav>
 </header>
+<!-- Menu Superior-->
 <body>
     <main>
+        <!-- Menu Esquerda-->
         <section id="menu_lateral_esquerda">
             <div id="biblioteca_de_musicas">
                 <span class="material-symbols-outlined"> library_music</span>
-                <h2>Sua Biblioteca</h2>
+                <h3>Sua Biblioteca</h3>
                 <span id="add_musicas" class="material-symbols-outlined">playlist_add</span>
             </div>
-            <div id="iframe_biblioteca"><iframe id="iframe" src="pg01.html" frameborder="0"></iframe></div>
+            <div id="central_biblioteca">
+                <iframe id="iframe_lateral" src="pg01.html" frameborder="0"></iframe>
+            </div>
             <nav id="links_rodapé_lateral">
                 <a href="#">Legal</a>
                 <a href="#">Segurança e Centro de privacidade</a>
@@ -43,16 +48,21 @@
                 <a href="#">Cookies</a>
                 <a href="#">Sobre anúncios</a>
                 <a href="#">Acessibilidade</a>
-                <button><span class="material-symbols-outlined">language</span>Português do Brasil</button>
+                <button><span  id="lingua" class="material-symbols-outlined">language</span>Português do Brasil</button>
             </nav>
         </section>
         <section id="conteudo_central">
-            <p>secao 2</p>
+            <div id="conteudo1"></div>
+            <div id="conteudo2"></div>
+            <div id="conteudo3"></div>
+            <div id="conteudo4"></div>
+            <div id="conteudo5"></div>
+            <div id="conteudo6"></div>
         </section>
     </main>
 </body>
 <footer>
-        <h4>Testar o premium de graça</h4>
+        <h5>Testar o premium de graça</h5>
         <p>Inscreva-se para curtir música de ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito</p>
         <a href="#">Inscreva-se grátis</a>
     </footer>

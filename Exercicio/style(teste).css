@@ -1,7 +1,6 @@
 @charset "UTF8";
 
 *{
-
     margin: 0px;
     padding: 0px;
 }
@@ -9,32 +8,39 @@
     display: none;
 }
 html,body{
-   
     background-color:black;
     color:white;
     height: 100vh;
     width: 100vw;
 }
 header,footer{
+    min-width: 800px;
     margin: auto;
-    width: 98vw;
-    background-color: black;
+    width: 98.5vw;
+    background-color:blue;
 }
 header{
-    background-color: ;
+    min-width: 800px;
+    background-color: black ;
     align-content: center;
     height: 58px;
 }
 main{
+    
+    display: flex;
     color: black;
     margin: auto;
-    width: 98vw;
+    width: 99vw;
     min-width: 500px;
 }
 #menu_superior{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+#menu_superior a{
+    text-decoration: none;  
+    color: white;
 }
 #logo_spotify{
     width: 110px;
@@ -50,7 +56,7 @@ main{
 }
 #caixa_de_pesquisa{
     font-size: 15px;
-    width: 30vw;
+    width: 25vw;
     min-width: 150px;
     height: 35px;
     border-radius: 30px;
@@ -62,7 +68,7 @@ main{
     background: url(imagens/icons/search.png) no-repeat 10px #1F1F1F;
 }
 #home_pesquisa{
-    margin-left: 50px;
+    margin-left: 130px;
     display: flex;
     align-items: center;
 }
@@ -75,6 +81,7 @@ main{
 }
 #inscrever_entrar a{
     text-decoration: none;
+    font-weight: bold;
     color: white;
     font-size: 18px;
 }
@@ -88,6 +95,108 @@ main{
     margin-left: 10px;
     margin-right: 10px;
 }
+/*Menu Esquerda e central*/
 section{
     background-color: #1F1F1F;
+    margin: 3px;
+    border-radius: 14px;
+    padding: 14px;
+}
+#menu_lateral_esquerda{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-width: 250px;
+    height: 75vh;
+}
+#iframe_lateral{
+    width: 100%;
+    height: 241px
+}
+#biblioteca_de_musicas{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+#menu_lateral_esquerda a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin: 5px;
+    line-height: 3em;
+}
+#menu_lateral_esquerda button{
+    width: 178px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 26px;
+}
+#menu_lateral_esquerda #lingua{
+    padding: 0px 5px;
+}
+
+#biblioteca_de_musicas h3{
+    margin-right: 200px;
+}
+#central_biblioteca{
+    margin: 25px 0px;
+}
+#central_biblioteca{
+    width: 100%;
+    height: 240px;
+    background: white;
+}
+
+#conteudo_central{
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 480px;
+    width: 900px;
+    height: 75vh;
+}
+#conteudo_central div{
+    width: 892pxpx;
+    height: 50px;
+    background-color: white;
+    margin: 5px;
+}
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    background-image: linear-gradient(to right, #9B40A9,#B02C9C,#8E4FB7,#7D65C7,#677EDC);
+    height: 65px;
+    min-width: 800px;
+    justify-content: center;
+}
+footer h5,p{
+    margin-left: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    left: 1141px;
+    top: 10px;
+    border-radius: 27px;
+    padding: 10px;
+    border: 2px solid white;
+    text-shadow: 1px 1px 6px black;
+    font-weight: bold;
+    background-color: white;
+    
 }
