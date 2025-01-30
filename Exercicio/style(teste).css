@@ -103,12 +103,14 @@ section{
     padding: 14px;
 }
 #menu_lateral_esquerda{
+    position:relative;
     color: white;
     display: flex;
     flex-direction: column;
     width: 400px;
-    min-width: 250px;
-    height: 75vh;
+    min-width: 300px;
+    height: 74vh;
+    background-color:#121212;
 }
 #iframe_lateral{
     width: 100%;
@@ -123,10 +125,10 @@ section{
 }
 #menu_lateral_esquerda a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
-    margin: 5px;
-    line-height: 3em;
+    margin: 8px;
+    line-height: 2em;
 }
 #menu_lateral_esquerda button{
     width: 178px;
@@ -141,34 +143,45 @@ section{
     justify-items: center;
     justify-content: center;
     margin-top: 26px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
 }
 #menu_lateral_esquerda #lingua{
     padding: 0px 5px;
 }
 
 #biblioteca_de_musicas h3{
-    margin-right: 200px;
+    margin-right: 13vw;
+    font-size: 20px;
+   
 }
 #central_biblioteca{
     margin: 25px 0px;
 }
 #central_biblioteca{
-    width: 100%;
+    width: 107%;
+    min-width:300px;
     height: 240px;
-    background: white;
+    margin-left: -14px;
 }
 
 #conteudo_central{
     display: flex;
     flex-direction: column;
-    
+    position: relative;
     min-width: 480px;
     width: 900px;
-    height: 75vh;
+    height: 74vh;
 }
 #conteudo_central iframe{
-    width: 892px;
-    height: 50px;
+    left: 4px;
+    width: 66vw;
+    min-width: 485px;
+    height: 74vh;
+    position:absolute;
+    left:0px;
     background-color: white;
     margin: 5px;
 }
@@ -181,8 +194,11 @@ footer{
     height: 65px;
     min-width: 800px;
     justify-content: center;
+    margin-top:3px;
 }
 footer h5,p{
+    width: 70vw;
+    min-width:500px;
     margin-left: 20px;
     text-shadow: 2px 2px 5px black;
 }
@@ -190,7 +206,7 @@ footer a{
     text-decoration: none;
     color:black;
     position: absolute;
-    left: 1141px;
+    right:10px;
     top: 10px;
     border-radius: 27px;
     padding: 10px;
