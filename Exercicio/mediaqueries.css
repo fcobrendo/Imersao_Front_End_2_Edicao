@@ -1,12 +1,20 @@
 @charset "UTF-8";
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:400px) {
     #home_pesquisa #caixa_de_pesquisa{
        display: none;
     }
     main{
         flex-wrap: nowrap;
     }
+    #grid_esquerda{
+        display: grid;
+        grid-template-columns: 1rf;
+        gap: 20px;
+        height: 100%;
+        
+        
+     }
     #icone_pesquisa{
         display: flex;
         background-color:#1F1F1F;
